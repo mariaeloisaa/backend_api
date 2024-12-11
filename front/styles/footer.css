@@ -1,0 +1,115 @@
+/* Estilos do Footer */
+.footer {
+    background-color: #7BA849; /* Verde mais vibrante */
+    color: #F0EAD2;
+    padding: 40px 20px;
+    border-top: 5px solid;
+    margin-top: 130px;
+  }
+  
+
+  
+  /* Container geral do footer */
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    top: 100px;
+  }
+  
+  /* Seção superior do footer */
+  .footer-top {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  /* Informações sobre o e-commerce */
+  .footer-info {
+    flex: 1;
+    max-width: 300px;
+  }
+  
+  .footer-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .footer-description {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #30421D;
+  }
+  
+  /* Links rápidos */
+  .footer-links {
+    flex: 1;
+    margin-left: 40px;
+  }
+  
+  .footer-subtitle {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #30421D;
+  }
+  
+  .footer-link-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-link {
+    display: block;
+    color: #30421D;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 5px 0;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-link:hover {
+    color: #388E3C; /* Verde mais escuro */
+  }
+  
+  /* Redes sociais */
+  .footer-social {
+    flex: 1;
+    margin-left: 40px;
+    text-align: center;
+  }
+  
+  .social-media {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .social-icon {
+    margin: 0 15px;
+    transition: transform 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    transform: scale(1.2);
+  }
+  
+  .social-icon img {
+    width: 35px;
+    height: 35px;
+    transition: transform 0.3s ease;
+  }
+  
+  /* Rodapé inferior */
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+  

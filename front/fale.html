@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>VerdeVida</title>
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="styles/fale.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="top-bar">
+          <p>plante qualidade, colha resultados.</p>
+      </div>
+  
+      <!-- Conteúdo principal do Header -->
+      <div class="header-content">
+          <!-- Logo -->
+          <div class="logo">
+              <a href="#">
+                  <img src="images/logo.png" alt="Logo do E-commerce">
+              </a>
+          </div>
+  
+          <!-- Barra de pesquisa -->
+          <div class="search-bar">
+              <input type="text" placeholder="Pesquisar produtos...">
+              <button type="submit">
+                  <i class="fas fa-search"></i>
+              </button>
+          </div>
+  
+          <!-- Navegação -->
+          <nav class="navegar">
+              <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="products.html">Produtos</a></li>
+                  <li><a href="#main-title">Promoções</a></li>
+                  <li><a href="sobrenos.html">Sobre Nós</a></li>
+              </ul>
+          </nav>
+  
+          <!-- Ícones de usuário, favoritos e carrinho -->
+          <div class="user-icons">
+              <a href="#" class="icon">
+                  <i class="fas fa-heart"></i>
+                  <span class="icon-label">Favoritos</span>
+              </a>
+              <a href="#" class="icon">
+                  <i class="fas fa-user"></i>
+                  <span class="icon-label">Entrar</span>
+              </a>
+              <a href="checkout.html" class="icon">
+                  <i class="fas fa-shopping-cart"></i>
+                  <span class="icon-label">Carrinho</span>
+              </a>
+          </div>
+      </div>
+  </header>
+  <section class="contact-section">
+    <div class="contact-container">
+      <h1>Fale Conosco</h1>
+      <p>Estamos aqui para ajudar! Preencha o formulário abaixo e entraremos em contato.</p>
+
+      <form action="#" method="POST" class="contact-form" id="contactForm">
+        <div class="form-group">
+          <label for="name">Nome <span class="required">*</span></label>
+          <input type="text" id="name" name="name" required placeholder="Digite seu nome" class="input-field">
+        </div>
+
+        <div class="form-group">
+          <label for="email">E-mail <span class="required">*</span></label>
+          <input type="email" id="email" name="email" required placeholder="Digite seu e-mail" class="input-field">
+        </div>
+
+        <div class="form-group">
+          <label for="phone">Telefone</label>
+          <input type="tel" id="phone" name="phone" placeholder="Digite seu telefone" class="input-field">
+        </div>
+
+        <div class="form-group">
+          <label for="subject">Assunto <span class="required">*</span></label>
+          <input type="text" id="subject" name="subject" required placeholder="Qual é o assunto?" class="input-field">
+        </div>
+
+        <div class="form-group">
+          <label for="message">Mensagem <span class="required">*</span></label>
+          <textarea id="message" name="message" required placeholder="Sua mensagem" class="textarea-field"></textarea>
+        </div>
+
+        <a href="index.html"><button type="submit" class="submit-button">Enviar Mensagem</button></a>
+      </form>
+    </div>
+  </section>
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-top">
+          <div class="footer-info">
+            <h3 class="footer-title">VerdeVida</h3>
+            <p class="footer-description">Seu e-commerce de produtos sustentáveis, com carinho e qualidade para o seu dia a dia.</p>
+          </div>
+          
+          <div class="footer-links">
+            <h4 class="footer-subtitle">Links Rápidos</h4>
+            <ul class="footer-link-list">
+              <li><a href="sobrenos.html" class="footer-link">Sobre Nós</a></li>
+              <li><a href="fale.html" class="footer-link">Fale Conosco</a></li>
+              <li><a href="politica-privacidade.html" class="footer-link">Política de Privacidade</a></li>
+              <li><a href="adm.html" class="footer-link">Página Admnistrativa</a></li>
+            </ul>
+          </div>
+    
+          <div class="footer-social">
+            <h4 class="footer-subtitle">Redes Sociais</h4>
+            <div class="social-media">
+              <a href="https://github.com" class="social-icon" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub">
+              </a>
+              <a href="https://www.linkedin.com" class="social-icon" target="_blank">
+                <img src="images/linkedin.png" alt="LinkedIn">
+              </a>
+              <a href="https://www.instagram.com" class="social-icon" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram">
+              </a>
+            </div>
+          </div>
+        </div>
+    
+        <div class="footer-bottom">
+          <p>&copy; 2024 VerdeVida. Todos os direitos reservados.</p>
+        </div>
+      </div>
+    </footer>
+    
+  </body>
+</html>

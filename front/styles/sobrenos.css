@@ -1,0 +1,100 @@
+.container {
+    padding-top: 100px; /* Espaçamento para o header fixado */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.about {
+    text-align: center;
+    position: relative;
+    top: 40px;
+}
+
+.about h1 {
+    font-size: 2.5rem;
+    color: #7BA849;
+    margin-bottom: 20px;
+    position: relative;
+    top: 20px;
+    right: 500px;
+}
+
+.about-content {
+    display: flex;
+    position: relative;
+    gap: 70px;
+    left: 100px;
+    align-items: flex-start;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.text-content {
+    width: 50%;
+    text-align: left;
+    padding-right: 20px;
+}
+
+.intro, .marketing {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.image{
+    position: relative;
+    left: 80px;
+    bottom: 40px;
+}    
+
+.image img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 5%;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1)
+    
+
+
+}
+
+.marketing {
+    font-size: 1.3rem;
+    color: #394e22;
+    margin-top: 10px; /* Menos espaçamento no topo */
+    line-height: 1.6;
+    
+}
+
+.values-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.value-card {
+    background-color: #F0EAD2;
+    border-radius: 10px;
+    padding: 30px;
+    width: 30%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.value-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.value-card h2 {
+    font-size: 1.5rem;
+    color: #394e22;
+    margin-bottom: 15px;
+}
+
+.value-card p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+}
